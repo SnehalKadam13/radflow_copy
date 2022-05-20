@@ -1,0 +1,255 @@
+id: edEEDb94WkO5MXJLLpyEUA
+projectId: jeQHN8sgN0uNsq89PXAQVw
+projectName: Radflow_copy
+created: 2022-05-20T13:08:13.3067426Z
+protocol: 1
+tests:
+- id: hljmKv5Nx0qrP1ocRVG13g
+  name: scroll
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-20T13:07:10.0000000
+  modificationDate: 2022-05-20T13:07:10.0000000
+  settings:
+    automationAssistant: true
+    appId: abBg0Q9uTkyE0uWNmHG5Kw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: abBg0Q9uTkyE0uWNmHG5Kw
+    name: RadFlow
+    url: https://testradflowfileshare.z21.web.core.windows.net/
+    platform: Web
+  steps:
+  - id: Fi5sfMsE-kKt687pRILhuw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Vlt1wTaUeEK8K_2wnqN0Yw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: DJpbzUI6UUeb9nvnu3Gtsw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mMtRMOemq0-Ih4g8FNqDDg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: DJpbzUI6UUeb9nvnu3Gtsw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: skadam
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Cu5aN_UnYUyXH3nn_TxLRQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: tzSVvJGKmE6HkAFrqOsJww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yPASirYD0EaYvelNWPusHA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: tzSVvJGKmE6HkAFrqOsJww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Abcd@1234
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ANyfj78y7U2jedPJ-8_UWg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: tzSVvJGKmE6HkAFrqOsJww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 928bf14e-7a56-4371-b92a-9cb9de53f632
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ENTER
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: T-NPnXwOi0yiovcC3qEaOA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 3
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: SFW6Rf9DW0G4jpBW38V4xw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: output
+      value: ''
+      direction: Output
+    - name: code
+      value: "document.querySelector(\"#worklistGridTable > tbody\").scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })"
+      direction: Input
+    - name: args
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://testradflowfileshare.z21.web.core.windows.net/
+    type: Input
+auxTests: []
+elements:
+- id: DJpbzUI6UUeb9nvnu3Gtsw
+  name: Username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#inputEmail3'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Username']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/form/div[1]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/main/div/div/div/div/div[1]/form/div[1]/div/input
+    priority: 3
+- id: tzSVvJGKmE6HkAFrqOsJww
+  name: Password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#inputPassword3'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/main/div/div/div/div/div[1]/form/div[2]/div/input
+    priority: 3
+projectParameters: []
+addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.0.4
+  actions:
+  - id: SFW6Rf9DW0G4jpBW38V4xw
+    name: Execute JavaScript
+    description: Execute JavaScript {{code}} with arguments {{args}}
+    className: io.testproject.addons.web.actions.ExecuteJavascript
+  - id: 22Nw5UqP7EGqvQhuHT2kqg
+    name: Accept alert
+    description: Accept alert
+    className: io.testproject.addons.web.alert.AcceptAlert
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: ED1182F1623F3663B69FF0B3B838CC826278EDEC4C23ABAE4BC484B163674A1C
