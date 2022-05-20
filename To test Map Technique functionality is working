@@ -1,0 +1,756 @@
+id: xNJS0ISJ60mWROYSnrPiwA
+projectId: jeQHN8sgN0uNsq89PXAQVw
+projectName: Radflow_copy
+created: 2022-05-20T13:08:09.0793095Z
+protocol: 1
+tests:
+- id: 5ELDR5CO4U6_n-8odqv4ig
+  name: To test Map Technique functionality is working
+  description: >-
+    1.Open & Sign-in to Radflow 
+
+    2.Click on Settings & select the option Manage Location
+
+    3.Click on the Locations tab
+
+    4.Click on the Map Technique button for previously added location
+
+    5.Select value & click on save button
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-20T13:07:07.0000000
+  modificationDate: 2022-05-20T13:07:07.0000000
+  settings:
+    automationAssistant: true
+    appId: abBg0Q9uTkyE0uWNmHG5Kw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: abBg0Q9uTkyE0uWNmHG5Kw
+    name: RadFlow
+    url: https://testradflowfileshare.z21.web.core.windows.net/
+    platform: Web
+  steps:
+  - id: XH4kLXsKv0KJspGzyC8Zhw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: uODJrx1-qE6NwcdaBT275w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: Username
+      value: '{{Username}}'
+      direction: Input
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dAoUJhqXJ0SIufF6Z0sZ1A
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: g0PYqCpkK0S840zzrw6DnA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SeiG2jIEuk-LATuf-DIgCQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: g0PYqCpkK0S840zzrw6DnA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: test
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xKOVaKyJGkGOY3foVuBWXg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: mO0AzcedqEC58OYNZU5mKQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VtYhYSUb6k-S9u-Boe5jlg
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 7jIHEB1qA0KzW6K9XsSUbA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XRPXji-KmUaJ0RbzjwEL-Q
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: dvUe872wHU6TTK2FHvI1HA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: object:2989
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WwzUXmxl5EKFkECuVDu_9Q
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: A2cBScURYEijJBGSBD1swA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FnMKpjAWVEmMOLjG9Q8Vhw
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: SXksABVYL0ejIo6Xwkf-pQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: g1BdqCeNKkiadeQz-rG3xA
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: _3CWpu79M0Gl7IvaKQIApw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: d6y4Rx3CL0eyuUs4dcshXw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: 9jtPfOZdIkai_um31nD2Pg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://testradflowfileshare.z21.web.core.windows.net/
+    type: Input
+  - name: Username
+    description: ''
+    type: Input
+auxTests:
+- id: uODJrx1-qE6NwcdaBT275w
+  name: To test location tab is loading properly
+  description: >-
+    1.Open & sign-in to Radflow
+
+    2.Load Settings -> Manage locations & click on locations tab
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-20T13:07:08.0000000
+  modificationDate: 2022-05-20T13:07:08.0000000
+  settings:
+    automationAssistant: true
+    appId: abBg0Q9uTkyE0uWNmHG5Kw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: H8cJap-Y-EWFJ0MOXtRJ2A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: 4iZKektne0O7uH118jeHSg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ULU9IlEQmECbHZltLuDv1g
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 7e5jkBf7GUm58pKuaUJjUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hjjTdYJsCkGnnE_1DfpQRQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 7Jub3snkEk-tEH9fg8YW0Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oFmOnVcUwESB6lBTB_Wmqw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: bVDu6VYh3EWq1t4wIFn5jA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: Username
+    description: ''
+    type: Input
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://testradflowfileshare.z21.web.core.windows.net/
+    type: Input
+- id: 4iZKektne0O7uH118jeHSg
+  name: To test Sign-in functionality with authorized credentials
+  description: >-
+    1.Load Radflow URL
+
+    2.Use registered users verified username & password
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-20T13:07:07.0000000
+  modificationDate: 2022-05-20T13:07:07.0000000
+  settings:
+    automationAssistant: true
+    appId: abBg0Q9uTkyE0uWNmHG5Kw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: n85XtIIhlUK6rArWq23HTw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vYqV5GFwgUGFSjCjBj5m_g
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: DJpbzUI6UUeb9nvnu3Gtsw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gFKuJb7rqEmmwjaBDQJGUw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: DJpbzUI6UUeb9nvnu3Gtsw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[Username]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4nqhUZ4zG0-6Wm5auVUWDg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: tzSVvJGKmE6HkAFrqOsJww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lUG3UTMMdUK2XppKyHZiqw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: tzSVvJGKmE6HkAFrqOsJww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[Password]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KGUcbGtSa0qAaz9zblOOnQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 7bk-YIlO7kesewcRuFEF2Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://testradflowfileshare.z21.web.core.windows.net/
+    type: Input
+elements:
+- id: g0PYqCpkK0S840zzrw6DnA
+  name: Select Location1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/main/div[1]/div/div/ui-view/div[1]/div/div/div[2]/div[2]/div[2]/div[1]/form/div/div[2]/input
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div[1]/form/div/div[2]/input
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input[@placeholder = 'Select Location']
+    priority: 0
+- id: mO0AzcedqEC58OYNZU5mKQ
+  name: Filter8
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/main/div[1]/div/div/ui-view/div[1]/div/div/div[2]/div[2]/div[2]/div[1]/form/div/div[4]/button[1]
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div[1]/form/div/div[4]/button[1]
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div[1]/form//button[. = 'Filter']
+    priority: 0
+- id: 7jIHEB1qA0KzW6K9XsSUbA
+  name: Map Technique
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]//button[. = 'Map Technique']
+    priority: 0
+  - name: XPATH
+    value: //tr[1]/td[5]/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div[1]/div/div/ui-view/div[1]/div/div/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[5]/button[1]
+    priority: 2
+- id: dvUe872wHU6TTK2FHvI1HA
+  name: SELECT5
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div[1]/select
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[1]/div/div/ui-view/div[6]/div/div/div/div[2]/div[2]/div[1]/select
+    priority: 1
+- id: A2cBScURYEijJBGSBD1swA
+  name: ADRENAL GLANDS WITHOUT CONTRAST
+  type:
+    id: jUwODgyNjAyNzk2NTk2NTY
+    name: option
+    source: System
+  locators:
+  - name: XPATH
+    value: //option[. = 'ADRENAL GLANDS WITHOUT CONTRAST']
+    priority: 0
+  - name: XPATH
+    value: //option[6]
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div[1]/div/div/ui-view/div[6]/div/div/div/div[2]/div[2]/div[1]/select/option[6]
+    priority: 2
+- id: SXksABVYL0ejIo6Xwkf-pQ
+  name: moveright
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#moveright'
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[2]/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/div[2]/div[1]/div[2]/div[2]/input
+    priority: 2
+- id: _3CWpu79M0Gl7IvaKQIApw
+  name: Save11
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/main/div[1]/div/div/ui-view/div[6]/div/div/div/div[2]/div[3]/div/button[1]
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div[3]/div/button[1]
+    priority: 1
+  - name: XPATH
+    value: //div/div[3]//button[. = 'Save']
+    priority: 0
+- id: 9jtPfOZdIkai_um31nD2Pg
+  name: OK
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div/div[7]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[5]/div[7]/div/button
+    priority: 2
+- id: 7e5jkBf7GUm58pKuaUJjUw
+  name: Settings1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/main/page-top/div/div[2]/ba-sidebar/aside/div[1]/ul/li[5]/a
+    priority: 2
+  - name: XPATH
+    value: //aside/div[1]/ul/li[5]/a
+    priority: 1
+  - name: XPATH
+    value: //a[. = 'Settings ']
+    priority: 0
+- id: 7Jub3snkEk-tEH9fg8YW0Q
+  name: Manage Location1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/main/page-top/div/div[2]/ba-sidebar/aside/div[1]/ul/li[5]/ul/li[1]/a
+    priority: 2
+  - name: XPATH
+    value: //li[5]/ul/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: //a[. = ' Manage Location']
+    priority: 0
+- id: bVDu6VYh3EWq1t4wIFn5jA
+  name: Locations1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Locations']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/ul/li[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div[1]/div/div/ui-view/div[1]/div/div/div[2]/div[1]/ul/li[2]/a
+    priority: 2
+- id: DJpbzUI6UUeb9nvnu3Gtsw
+  name: Username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#inputEmail3'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Username']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/form/div[1]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/main/div/div/div/div/div[1]/form/div[1]/div/input
+    priority: 3
+- id: tzSVvJGKmE6HkAFrqOsJww
+  name: Password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#inputPassword3'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/main/div/div/div/div/div[1]/form/div[2]/div/input
+    priority: 3
+- id: 7bk-YIlO7kesewcRuFEF2Q
+  name: Sign In1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In Wait...']
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div/div/div/div/div/div[1]/div[2]/form/div[6]/div/button
+    priority: 2
+  - name: XPATH
+    value: //div[6]//button
+    priority: 1
+projectParameters: []
+addons: []
