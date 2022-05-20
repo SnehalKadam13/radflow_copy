@@ -1,0 +1,381 @@
+id: cltaUdFkD0itI_aI_LwJfw
+projectId: jeQHN8sgN0uNsq89PXAQVw
+projectName: Radflow_copy
+created: 2022-05-20T13:07:48.3838657Z
+protocol: 1
+tests:
+- id: GVibORIw3EG6voeQgAxO1Q
+  name: To test Site tab is getting loaded properly
+  description: >-
+    1. Open & sign in to Radflow
+
+    2.Click on Settings -> Manage Locations
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-20T13:07:08.0000000
+  modificationDate: 2022-05-20T13:07:08.0000000
+  settings:
+    automationAssistant: true
+    appId: abBg0Q9uTkyE0uWNmHG5Kw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: abBg0Q9uTkyE0uWNmHG5Kw
+    name: RadFlow
+    url: https://testradflowfileshare.z21.web.core.windows.net/
+    platform: Web
+  steps:
+  - id: cybkXBt40kaYukDJDBgO0A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: 4iZKektne0O7uH118jeHSg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: L1VvQUfuvkacGi17iZ6zFA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 7e5jkBf7GUm58pKuaUJjUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7IO70D7PckytmXAwGiWPnQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 7Jub3snkEk-tEH9fg8YW0Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vj72TwLUSU6aVL-ReM26JA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 0PfE51jMnU6Yl2fBTX9MtA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://testradflowfileshare.z21.web.core.windows.net/
+    type: Input
+auxTests:
+- id: 4iZKektne0O7uH118jeHSg
+  name: To test Sign-in functionality with authorized credentials
+  description: >-
+    1.Load Radflow URL
+
+    2.Use registered users verified username & password
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-20T13:07:07.0000000
+  modificationDate: 2022-05-20T13:07:07.0000000
+  settings:
+    automationAssistant: true
+    appId: abBg0Q9uTkyE0uWNmHG5Kw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: n85XtIIhlUK6rArWq23HTw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vYqV5GFwgUGFSjCjBj5m_g
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: DJpbzUI6UUeb9nvnu3Gtsw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gFKuJb7rqEmmwjaBDQJGUw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: DJpbzUI6UUeb9nvnu3Gtsw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[Username]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4nqhUZ4zG0-6Wm5auVUWDg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: tzSVvJGKmE6HkAFrqOsJww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lUG3UTMMdUK2XppKyHZiqw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: tzSVvJGKmE6HkAFrqOsJww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[Password]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KGUcbGtSa0qAaz9zblOOnQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 7bk-YIlO7kesewcRuFEF2Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://testradflowfileshare.z21.web.core.windows.net/
+    type: Input
+elements:
+- id: 7e5jkBf7GUm58pKuaUJjUw
+  name: Settings1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/main/page-top/div/div[2]/ba-sidebar/aside/div[1]/ul/li[5]/a
+    priority: 2
+  - name: XPATH
+    value: //aside/div[1]/ul/li[5]/a
+    priority: 1
+  - name: XPATH
+    value: //a[. = 'Settings ']
+    priority: 0
+- id: 7Jub3snkEk-tEH9fg8YW0Q
+  name: Manage Location1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/main/page-top/div/div[2]/ba-sidebar/aside/div[1]/ul/li[5]/ul/li[1]/a
+    priority: 2
+  - name: XPATH
+    value: //li[5]/ul/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: //a[. = ' Manage Location']
+    priority: 0
+- id: 0PfE51jMnU6Yl2fBTX9MtA
+  name: Sites1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/main/div[1]/div/div/ui-view/div[1]/div/div/div[2]/div[1]/ul/li[1]/a
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div[1]/ul/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: //a[. = 'Sites']
+    priority: 0
+- id: DJpbzUI6UUeb9nvnu3Gtsw
+  name: Username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#inputEmail3'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Username']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/form/div[1]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/main/div/div/div/div/div[1]/form/div[1]/div/input
+    priority: 3
+- id: tzSVvJGKmE6HkAFrqOsJww
+  name: Password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#inputPassword3'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/main/div/div/div/div/div[1]/form/div[2]/div/input
+    priority: 3
+- id: 7bk-YIlO7kesewcRuFEF2Q
+  name: Sign In1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In Wait...']
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div/div/div/div/div/div[1]/div[2]/form/div[6]/div/button
+    priority: 2
+  - name: XPATH
+    value: //div[6]//button
+    priority: 1
+projectParameters: []
+addons: []
